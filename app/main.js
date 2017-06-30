@@ -6,6 +6,7 @@ myCtrl.$inject = ['$scope'];
 function myCtrl($scope){
 //     localStorage.clear();
     $scope.messageArray = [];
+    $scope.disabled = true;
     var id = Object.keys(localStorage).length;
     
     $scope.save = function(){
@@ -26,5 +27,9 @@ function myCtrl($scope){
     for(var key in localStorage){
         var messageObj = JSON.parse(localStorage.getItem(key));
         $scope.messageArray.push(messageObj);
+    }
+    
+    $scope.editMessage = function(){
+        
     }
 }

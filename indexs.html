@@ -13,11 +13,13 @@
 <body ng-app="myBlog" ng-controller="myCtrl">
   <form ng-submit="save()">
       <span>Name: </span><input type="text" ng-model="name">
-       <span>Message: </span><input type="text" ng-model="text">
-<!--       <md-button type="submit"><span>Save</span></md-button>-->
+      <span>Message: </span><input type="text" ng-model="text">
   <input class="btn btn-default" type="submit" value="Submit">
    </form>
-   <div id="result" ng-repeat="message in messageArray">{{message.name}} {{message.text}}</div>
+   <div id="result" ng-repeat="message in messageArray">{{message.name}}
+      <span class="glyphicon glyphicon-pencil" ng-click="disabled = !disabled"></span>
+       <input type="text" class="form-control" ng-model="message.text" ng-disabled="disabled" ng-blur="editMessage()">
+   </div>
    
    
     <script src="app/main.js"></script>
