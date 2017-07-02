@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natali0073/Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natali0073/Blog/issues"
+  },
+  "homepage": "https://github.com/Natali0073/Blog#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-open": "^2.0.0"
+  }
+}

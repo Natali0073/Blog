@@ -1,12 +1,15 @@
-/*body{
-  background: #efefbb;
-  background: -webkit-linear-gradient(to top, #efefbb, #d4d3dd);
-  background: linear-gradient(to top, #efefbb, #d4d3dd);
-  height: 100vh;
-}*/
+//body{
+//  background: #efefbb;
+//  background: -webkit-linear-gradient(to top, #efefbb, #d4d3dd);
+//  background: linear-gradient(to top, #efefbb, #d4d3dd);
+//  height: 100vh; 
+//}
+
 .enter-message{
   resize: none;
+    transition: all 0.2s ease;
 }
+
 
 .hide-message{
   resize: none;
